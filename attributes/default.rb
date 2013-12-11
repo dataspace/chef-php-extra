@@ -3,8 +3,8 @@ default['xdebug']['scream'] = 0
 default['xdebug']['remote_enable'] = "On"
 default['xdebug']['remote_autostart'] = 0
 default['xdebug']['remote_mode'] = "req"
-default['xdebug']['remote_connect_back'] = 1
-default['xdebug']['remote_host'] = "localhost"
+default['xdebug']['remote_connect_back'] = "On"
+#default['xdebug']['remote_host'] = "localhost"
 default['xdebug']['remote_port'] = 9000
 default['xdebug']['remote_handler'] = "dbgp"
 
