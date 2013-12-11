@@ -10,8 +10,13 @@ xdebug.remote_mode = <%= @params['remote_mode'] %>
 xdebug.remote_connect_back = <%= @params['remote_connect_back'] %>
 xdebug.idekey = <%= @params['idekey'] %>
 xdebug.file_link_format="<%= @params['file_link_format'] %>"
+xdebug.remote_host="<%= @params['remote_host'] %>"
+xdebug.remote_port=<%= @params['remote_port'] %>
+xdebug.remote_handler="<%= @params['remote_handler'] %>"
 
 [xdebug-profiling]
 xdebug.profiler_enable_trigger = <%= @params['profiler_enable_trigger'] %>
 xdebug.profiler_enable = <%= @params['profiler_enable'] %>
+xdebug.profiler_append = <%= @params['profiler_append'] %>
 xdebug.profiler_output_dir = <%= @params['profiler_output_dir'] %>
+xdebug.profiler_output_name = "@params['profiler_output_name']"
